@@ -28,6 +28,7 @@ font-size: 20px;
 .button{
     border: 1px solid #26C7EA;
     background-color: #0B0E66;
+    color: #26C6EA;
     border-radius: 35px 0;
     width: 141px;
 height: 41.694px;
@@ -42,7 +43,7 @@ font-family: Hammersmith One;
 font-size: 16px;
 }
 .switch{
-position: relative;
+    position: relative;
 border-radius: 10px;
 border: 1px solid white;
 display: inline-block;
@@ -51,25 +52,17 @@ height: 20px;
 margin: 0 10px;
 }
 .slide{
-position: absolute;
-top: 0;
-right: 0;
-padding-left: 10px;
-}
-.slide{
+    display: inline-block;
     position: absolute;
     height: 15px;
     width: 15px;
-    background-color: white;
-    left: 4;
-    bottom: 0;
-    top: 0;
     border-radius: 50%;
+     margin-top: 1px;
+    background-color: white;
 }
 .midlle{
     background-image: url(img/img.1avatar.png);
-    /* width: 1440px;
-    height: 740px; */
+
 }
 .midlle p{
     width: 298px;
@@ -112,6 +105,7 @@ margin: 10px 30px 10px 31px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+  
 }
 .img1{
    width: 30px;
@@ -127,4 +121,46 @@ padding-left: 1202px;
     width: 50px;
 height: 30px;
 padding-left: 1186px;
+}
+.midlle2{
+text-align: center;
+}
+h1{
+    color: #0A3853;
+text-align: justify;
+font-family: Inter;
+font-size: 36px;
+margin-left: 358px;
+}
+.phrase{
+    color: #0A3853;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 36px;
+    margin-left: 219px;
+}
+.author{
+color: black;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+}
+.block2{
+    background-image: url(img/img.2avatar.png);
+    width: 1440px;
+    height: 741px;
+    background-repeat: no-repeat;
+}
+.trailer{
+    border: 1px solid #26C7EA;
+    background-color: #0B0E66;
+    color: #26C6EA;
+    border-radius: 35px 0;
+    text-decoration: none;
+    color: #26C7EA;
+    text-align: justify;
+    font-family: HeadlandOne;
+    font-size: 24px;
+    margin-top: 355px;
+   padding: 25px 19px 25px 20px;
 }
