@@ -4,26 +4,26 @@
     box-sizing: border-box;
 }
 .block1{
-background-image: url(img/img.2bcg.png);
-display: flex;
-text-align: center;
-align-items: center;
+    background-image: url(img/img.2bcg.png);
+    display: flex;
+    text-align: center;
+    align-items: center;
 }
 .water{
     padding-left: 204px;
-padding-right: 168px;
-padding-top: 39px;
-padding-bottom: 39px;
+    padding-right: 168px;
+    padding-top: 39px;
+    padding-bottom: 39px;
 }
 .block1 a{
     display: flex;
-font-weight: 600;
-padding-right: 38px;
-text-decoration: none;
-color: #FFF;
-text-align: center;
-font-family: Inter;
-font-size: 20px;
+    font-weight: 600;
+    padding-right: 38px;
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
 }
 .button{
     border: 1px solid #26C7EA;
@@ -31,34 +31,34 @@ font-size: 20px;
     color: #26C6EA;
     border-radius: 35px 0;
     width: 141px;
-height: 41.694px;
-margin-left: 250px;
-margin-right: 49px;
+    height: 41.694px;
+    margin-left: 250px;
+    margin-right: 49px;
 }
 .switcher{
     display: flex;
-color: #FFF;
-text-align: center;
-font-family: Hammersmith One;
-font-size: 16px;
+    color: #FFF;
+    text-align: center;
+    font-family: Hammersmith One;
+    font-size: 16px;
 }
 .switch{
     position: relative;
-border-radius: 10px;
-border: 1px solid white;
-display: inline-block;
-width: 36px;
-height: 20px;
-margin: 0 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+    display: inline-block;
+    width: 36px;
+    height: 20px;
+    margin: 0 10px;
 }
 .slide{
-    display: inline-block;
-    position: absolute;
-    height: 15px;
-    width: 15px;
-    border-radius: 50%;
-     margin-top: 1px;
-    background-color: white;
+        display: inline-block;
+        position: absolute;
+        height: 15px;
+        width: 15px;
+        border-radius: 50%;
+        margin-top: 1px;
+        background-color: white;
 }
 .midlle{
     background-image: url(img/img.1avatar.png);
@@ -66,22 +66,22 @@ margin: 0 10px;
 }
 .midlle p{
     width: 298px;
-height: 96px;
-color: #FFF;
-font-family: Inter;
-font-size: 20px;
-display: flex;
+    height: 96px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    display: flex;
 }
 .language{
-  padding-top: 180px;
-   margin-left: 204px;
+    padding-top: 180px;
+    margin-left: 204px;
 }
 .language1{
-margin-left: 204px;
+    margin-left: 204px;
 }
 .png{
-margin-top: 100px;
-margin-left: 257px;
+    margin-top: 100px;
+    margin-left: 257px;
 }
 .button1{
     border: 1px solid #26C7EA;
@@ -95,11 +95,11 @@ margin-left: 257px;
 }
 .button1 p{
     color: #26C7EA;
-text-align: center;
-font-family: HeadlandOne;
-font-size: 24px;
-width: 199px;
-margin: 10px 30px 10px 31px;
+    text-align: center;
+    font-family: HeadlandOne;
+    font-size: 24px;
+    width: 199px;
+    margin: 10px 30px 10px 31px;
 }
 .img{
     display: flex;
@@ -114,23 +114,24 @@ margin: 10px 30px 10px 31px;
 }
 .img2{
     width: 34px;
-height: 30px;
-padding-left: 1202px;
+    height: 30px;
+    padding-left: 1202px;
 }
 .img3{
     width: 50px;
-height: 30px;
-padding-left: 1186px;
+    height: 30px;
+    padding-left: 1186px;
 }
 .midlle2{
-text-align: center;
+    text-align: center;
 }
 h1{
+    padding-top: 75px;
     color: #0A3853;
-text-align: justify;
-font-family: Inter;
-font-size: 36px;
-margin-left: 358px;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 36px;
+    margin-left: 358px;
 }
 .phrase{
     color: #0A3853;
@@ -140,10 +141,10 @@ margin-left: 358px;
     margin-left: 219px;
 }
 .author{
-color: black;
-text-align: center;
-font-family: Inter;
-font-size: 24px;
+    color: black;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
 }
 .block2{
     background-image: url(img/img.2avatar.png);
@@ -164,3 +165,145 @@ font-size: 24px;
     margin-top: 355px;
    padding: 25px 19px 25px 20px;
 }
+.midlle3{
+    text-align: center;
+}
+.phrase1{
+    padding-top: 75px;
+    color: #141414;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 36px;
+    margin-left: 277px;
+}
+.phrase2{
+    color: #141414;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 36px;
+    margin-left: 456px;
+}
+.block3{
+    background-image: url(img/img.3bcg.png);
+    width: 1440px;
+    height: 704px;
+    flex-direction: column;
+}
+.language1{
+    color: #141414;
+    text-align: justify;
+    font-family: HeadlandOne;
+    font-size: 32px;
+    text-align: center;
+}
+.img11{
+    background-image: url(img/img.4bcg.png);
+margin-left: 204px;
+margin-top: 143px;
+width: 320px;
+height: 240px;
+
+}
+.speak{
+    padding-top: 36px;
+    color: #141414;
+text-align: justify;
+font-family: HeadlandOne;
+font-size: 24px;
+padding-left: 120px;
+}
+.img111{
+    padding-top: 40px;
+}
+.speak1{
+padding-top: 40px;
+color: #141414;
+text-align: justify;
+font-family: HeadlandOne;
+font-size: 24px;
+padding-left: 123px;
+}
+.img22{
+    background-image: url(img/img.4bcg.png);
+    width: 320px;
+height: 240px;
+margin-top: 24px;
+margin-left: 204px;
+}
+.speak2{
+    padding-top: 36px;
+    color: #141414;
+text-align: justify;
+font-family: HeadlandOne;
+font-size: 24px;
+padding-left: 120px;   
+}
+.img222{
+    padding-top: 40px;   
+}
+.speak3{
+    padding-top: 40px;
+color: #141414;
+text-align: justify;
+font-family: HeadlandOne;
+font-size: 24px;
+padding-left: 123px;
+}
+.phrase3{
+    padding-top: 75px;
+margin-left: 277px;
+color: #141414;
+text-align: justify;
+font-family: Inter;
+font-size: 36px;
+}
+.phrase4{
+    margin-left: 340px;
+    color: #141414;
+text-align: justify;
+font-family: Inter;
+font-size: 36px;
+}
+.imgfinall{
+    padding-left: 519px;
+}
+.finall2{
+   background-image: url(img/img.5bcg.png);
+   width: 1440px;
+height: 223px;
+}
+.finall2{
+    display: flex;
+}
+.imgwater{
+    padding-top: 77px;
+    margin-left: 204px;
+}
+.line{
+    padding-top: 35px;
+    margin-left: 80px;
+}
+.dottedline{
+    padding-top: 80px;
+    margin-left: 80px;
+    color: #FFF;
+text-align: justify;
+font-family: Inter;
+font-size: 20px;
+}
+.dottedline1{
+    padding-top: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.dottedline2{
+    padding-top: 80px;
+    color: #FFF;
+text-align: justify;
+font-family: Inter;
+font-size: 20px;
+}
+/* .block5{
+    padding-top: 120px;
+  
+} */
