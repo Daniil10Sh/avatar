@@ -248,6 +248,24 @@ text-align: justify;
 font-family: HeadlandOne;
 font-size: 24px;
 padding-left: 123px;
+.speak4{
+    color: #141414;
+    text-align: justify;
+    font-family: HeadlandOne;
+    font-size: 24px;
+}
+.speak5{
+    color: #141414;
+    text-align: justify;
+    font-family: HeadlandOne;
+    font-size: 24px;
+}
+.midlle4{
+    display: flex;
+}
+.img333{
+    padding-top: 40px;   
+}
 }
 .phrase3{
     padding-top: 75px;
@@ -256,6 +274,12 @@ color: #141414;
 text-align: justify;
 font-family: Inter;
 font-size: 36px;
+}
+.block6{
+    background-image: url(img/img.4bcg.png);
+}
+.block7{
+    background-image: url(img/img.4bcg.png);
 }
 .phrase4{
     margin-left: 340px;
@@ -303,7 +327,7 @@ text-align: justify;
 font-family: Inter;
 font-size: 20px;
 }
-/* .block5{
+.block5{
     padding-top: 120px;
   
-} */
+}
