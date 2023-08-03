@@ -8,6 +8,7 @@
     display: flex;
     text-align: center;
     align-items: center;
+    
 }
 .water{
     padding-left: 204px;
@@ -15,7 +16,7 @@
     padding-top: 39px;
     padding-bottom: 39px;
 }
-.block1 a{
+.block1 nav{
     display: flex;
     font-weight: 600;
     padding-right: 38px;
@@ -37,34 +38,28 @@
 }
 .switcher{
     display: flex;
+}
+.switcher a{
     color: #FFF;
-    text-align: center;
-    font-family: Hammersmith One;
-    font-size: 16px;
+text-align: center;
+font-family: Hammersmith One;
+font-size: 16px;
+margin-right: 10px;
 }
 .switch{
-    position: relative;
-    border-radius: 10px;
-    border: 1px solid white;
-    display: inline-block;
+    border: 1px solid #FFFFFF;
     width: 36px;
     height: 20px;
-    margin: 0 10px;
+    border-radius: 10px;
 }
 .slide{
-        display: inline-block;
-        position: absolute;
-        height: 15px;
-        width: 15px;
-        border-radius: 50%;
-        margin-top: 1px;
-        background-color: white;
-}
-.midlle{
-    background-image: url(img/img.1avatar.png);
 
 }
-.midlle p{
+.midsite{
+    background-image: url(img/img.1avatar.png);
+ background-size: cover;
+}
+.midsite p{
     width: 298px;
     height: 96px;
     color: #FFF;
@@ -122,7 +117,7 @@
     height: 30px;
     padding-left: 1186px;
 }
-.midlle2{
+.midsite2{
     text-align: center;
 }
 h1{
@@ -165,8 +160,8 @@ h1{
     margin-top: 355px;
    padding: 25px 19px 25px 20px;
 }
-.midlle3{
-    text-align: center;
+.midsite3{
+    text-align: center; 
 }
 .phrase1{
     padding-top: 75px;
@@ -260,7 +255,7 @@ padding-left: 123px;
     font-family: HeadlandOne;
     font-size: 24px;
 }
-.midlle4{
+.midsite4{
     display: flex;
 }
 .img333{
