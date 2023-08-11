@@ -113,12 +113,7 @@ padding-left: 10px;
     width: 199px;
     margin: 10px 30px 10px 31px;
 }
-.img{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  
-}
+
 .qoute2{
     text-align: center;
    
