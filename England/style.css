@@ -72,6 +72,7 @@ padding-left: 10px;
 .midsite{
     background-image: url(img/img.1avatar.png);
  background-size: cover;
+ height: 740px;
 }
 .midsite p{
     width: 298px;
@@ -79,31 +80,35 @@ padding-left: 10px;
     color: #FFF;
     font-family: Inter;
     font-size: 20px;
-    display: flex;
+    /* margin-left: 204px; */
 }
 .language{
     padding-top: 180px;
-    margin-left: 204px;
 }
-.language1{
-    margin-left: 204px;
-}
+
+
 .png{
     margin-top: 100px;
-    margin-left: 257px;
 }
-.img{
-    flex-direction: column;
+.midsite{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
+.img1,
+img2{
+   margin-bottom: 24px;
+}
+
 .button1{
     border: 1px solid #26C7EA;
     background-color: #0B0E66;
     border-radius: 45px 0;
     width: 260px;
   height: 80px;
-    margin-top: 42px;
-    margin-left: 204px;
-   align-items: center;
+    margin-top: 52px;
+    /* margin-left: 204px;
+   align-items: center; */
 }
 .button1 p{
     color: #26C7EA;
