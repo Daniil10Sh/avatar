@@ -5,10 +5,14 @@
 }
 .block1{
     background-image: url(img/img.2bcg.png);
+    background-size: cover;
     display: flex;
     text-align: center;
     align-items: center;
     
+}
+#color{
+    color: #94CFFF;
 }
 .water{
     padding-left: 204px;
@@ -16,7 +20,7 @@
     padding-top: 39px;
     padding-bottom: 39px;
 }
-.block1 nav{
+.block1 nav {
     display: flex;
     font-weight: 600;
     padding-right: 38px;
@@ -55,8 +59,8 @@ font-size: 16px;
 }
 .slider{
 position: absolute;
-top: 0;
 right: 0;
+top: o;
 padding-left: 10px;
 }
 .slider::before{
@@ -66,7 +70,7 @@ padding-left: 10px;
     height: 15px;
     border-radius: 50%;
     background-color: white;
-    right: 2px;
+    left: -22px;
     top: 2px;
 }
 .midsite{
@@ -80,7 +84,6 @@ padding-left: 10px;
     color: #FFF;
     font-family: Inter;
     font-size: 20px;
-    /* margin-left: 204px; */
 }
 .language{
     padding-top: 180px;
@@ -107,16 +110,15 @@ img2{
     width: 260px;
   height: 80px;
     margin-top: 52px;
-    /* margin-left: 204px;
-   align-items: center; */
 }
 .button1 p{
+    display: flex;
     color: #26C7EA;
     text-align: center;
     font-family: HeadlandOne;
     font-size: 24px;
     width: 199px;
-    margin: 10px 30px 10px 31px;
+    margin: 25px 75px 25px 74px;
 }
 
 .qoute2{
@@ -133,20 +135,20 @@ h1{
     text-align: justify;
     font-family: Inter;
     font-size: 36px;
-    margin-left: 358px;
+    margin-left: 170px;
 }
 .phrase{
     color: #0A3853;
     text-align: justify;
     font-family: Inter;
     font-size: 36px;
-    margin-left: 219px;
+    margin-left: 308px;
 }
 .author{
     color: black;
-    text-align: center;
     font-family: Inter;
     font-size: 24px;
+    margin-left: 649px;
 }
 .block2{
     background-image: url(img/img.2avatar.png);
@@ -167,11 +169,10 @@ h1{
     margin-left: 609px;
    padding: 25px 19px 25px 20px;
 }
-.quote3{
-    text-align: center; 
-}
+
 .imgquote3{
     padding-bottom: 10px;
+   margin-left: 521px;
 }
 .phrase1{
     padding-top: 75px;
@@ -179,19 +180,20 @@ h1{
     text-align: justify;
     font-family: Inter;
     font-size: 36px;
-    margin-left: 277px;
+    margin-left: 292px;
 }
 .phrase2{
     color: #141414;
     text-align: justify;
     font-family: Inter;
     font-size: 36px;
-    margin-left: 456px;
+    margin-left: 469px;
 }
 .learnlanguages{
     background-image: url(img/img.3bcg.png);
     background-size: cover;
     height: 704px;
+    text-align: center;
 }
 h3{
 margin-left: 629px;
@@ -200,26 +202,29 @@ text-align: justify;
 font-family: HeadlandOne;
 font-size: 32px;
 }
-.cards-top{
-    display: flex;
+.cards{
+    margin-top: 143px;
+    display: inline-grid;
+grid-template-rows: 320px 320px 320px;
     justify-content: center;
-}
-.cards-bottom {
-    display: flex;
-    justify-content: center;
+    align-items: center;
 }
 .cardchild{
     margin: 27px 36px;
-    justify-content: center;
+   display: inline-grid;
+   justify-content: center;
+   align-items: center;
     background-image: url(img/img.4bcg.png);
 color: #141414;
 text-align: justify;
 font-family: HeadlandOne;
 font-size: 24px;
+width: 320px;
+height: 240px;
 }
 .card img{
     width: 152px;
-    height: 40px;
+height: 40px;
 }
 .phrase3{
     color: #141414;
@@ -227,14 +232,20 @@ text-align: justify;
 font-family: Inter;
 font-size: 36px;
 padding-top: 75px;
-margin-left: 277px;
+margin-left: 322px;
 }
 .phrase4{
-    margin-left: 340px;
+    margin-left: 319px;
     color: #141414;
 text-align: justify;
 font-family: Inter;
 font-size: 36px;
+}
+.author1{
+    color: black;
+    font-family: Inter;
+    font-size: 24px;
+    margin-left: 674px;
 }
 .imgfinall{
     padding-left: 519px;
@@ -290,11 +301,7 @@ font-size: 20px;
 .finall2{
     display: flex;
 }
-.img{
-   padding-bottom: 299px;
-}
 .img2{
-    padding-top: 24px;
     padding-bottom: 27px;
 }
 .block5-email2{
