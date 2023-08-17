@@ -1,8 +1,5 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import '/UKRAINE/reset.css';
+@import '/UKRAINE/normalize.css';
 .block1{
     background-image: url(img/img.2bcg.png);
     background-size: cover;
@@ -10,6 +7,13 @@
     text-align: center;
     align-items: center;
     
+}
+#learnlanguage{
+    color: #141414;
+    text-align: justify;
+    font-family: HeadlandOne;
+    font-size: 32px;
+    text-align: center;
 }
 #color{
     color: #94CFFF;
@@ -84,15 +88,10 @@ padding-left: 10px;
     color: #FFF;
     font-family: Inter;
     font-size: 20px;
-    /* margin-left: 204px; */
+  
 }
 .language{
     padding-top: 180px;
-}
-
-
-.png{
-    margin-top: 100px;
 }
 .midsite{
     display: flex;
@@ -111,8 +110,6 @@ img2{
     width: 260px;
   height: 80px;
     margin-top: 52px;
-    /* margin-left: 204px;
-   align-items: center; */
 }
 .button1 p{
     color: #26C7EA;
@@ -131,13 +128,13 @@ img2{
     padding-left: 520px;
     padding-top: 10px;
 }
-h1{
-    padding-top: 75px;
+#h1{
     color: #0A3853;
-    text-align: justify;
-    font-family: Inter;
-    font-size: 36px;
-    margin-left: 358px;
+text-align: justify;
+font-family: Inter;
+font-size: 36px;
+margin-left: 358px;
+margin-top: 75px;
 }
 .phrase{
     color: #0A3853;

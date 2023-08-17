@@ -1,8 +1,5 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import '/English/reset.css';
+@import '/English/reset.css';
 .block1{
     background-image: url(img/img.2bcg.png);
     background-size: cover;
@@ -71,7 +68,7 @@ padding-left: 10px;
     border-radius: 50%;
     background-color: white;
     left: -22px;
-    top: 2px;
+    top: 3px;
 }
 .midsite{
     background-image: url(img/img.1avatar.png);
@@ -86,12 +83,7 @@ padding-left: 10px;
     font-size: 20px;
 }
 .language{
-    padding-top: 180px;
-}
-
-
-.png{
-    margin-top: 100px;
+    margin-top: 180px;
 }
 .midsite{
     display: flex;
@@ -129,13 +121,20 @@ img2{
     padding-left: 520px;
     padding-top: 10px;
 }
-h1{
-    padding-top: 75px;
+#h1{
+    color: #0A3853;
+text-align: justify;
+font-family: Inter;
+font-size: 36px;
+margin-left: 170px;
+margin-top: 75px;
+}
+h2{
     color: #0A3853;
     text-align: justify;
     font-family: Inter;
     font-size: 36px;
-    margin-left: 170px;
+    margin-left: 308px;
 }
 .phrase{
     color: #0A3853;
@@ -195,12 +194,12 @@ h1{
     height: 704px;
     text-align: center;
 }
-h3{
-margin-left: 629px;
-color: #141414;
-text-align: justify;
-font-family: HeadlandOne;
-font-size: 32px;
+#learnlanguage{
+    color: #141414;
+    text-align: justify;
+    font-family: HeadlandOne;
+    font-size: 32px;
+    text-align: center;
 }
 .cards{
     margin-top: 143px;
