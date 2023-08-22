@@ -1,5 +1,5 @@
 @import '/English/reset.css';
-@import '/English/reset.css';
+@import '/English/normalize.css';
 .block1{
     background-image: url(img/img.2bcg.png);
     background-size: cover;
@@ -45,6 +45,8 @@
 text-align: center;
 font-family: Hammersmith One;
 font-size: 16px;
+text-decoration: none;
+margin-top: 6px;
 }
 .switch{
     border: 1px solid #FFFFFF;
