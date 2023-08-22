@@ -77,12 +77,14 @@ padding-left: 10px;
     border-radius: 50%;
     background-color: white;
     right: 2px;
-    top: 3px;
+    top: 2px;
 }
 .midsite{
     background-image: url(img/img.1avatar.png);
  background-size: cover;
  height: 740px;
+ display: flex;
+ justify-content: center;
 }
 .midsite p{
     width: 298px;

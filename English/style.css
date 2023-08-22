@@ -76,6 +76,8 @@ padding-left: 10px;
     background-image: url(img/img.1avatar.png);
  background-size: cover;
  height: 740px;
+ display: flex;
+ justify-content: center;
 }
 .midsite p{
     width: 298px;
