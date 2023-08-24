@@ -71,6 +71,7 @@ padding-left: 10px;
     background-color: white;
     left: -22px;
     top: 3px;
+    cursor: pointer;
 }
 .midsite{
     background-image: url(img/img.1avatar.png);
