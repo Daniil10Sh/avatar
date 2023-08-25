@@ -40,6 +40,7 @@
 }
 .switcher{
     display: flex;
+    align-items: center;
 }
 .switcher a{
     color: #FFF;
@@ -47,7 +48,6 @@ text-align: center;
 font-family: Hammersmith One;
 font-size: 16px;
 text-decoration: none;
-margin-top: 6px;
 }
 .switch{
     border: 1px solid #FFFFFF;
@@ -125,10 +125,10 @@ img2{
 }
 .phrase{
     color: #0A3853;
-    text-align: justify;
     font-family: Inter;
     font-size: 36px;
     display: inline-block;
+    text-align: center;
 }
 .author{
     color: black;
@@ -161,10 +161,10 @@ img2{
 }
 .phrase2{
     color: #141414;
-    text-align: justify;
     font-family: Inter;
     font-size: 36px;
     display: inline-block;
+    text-align: center;
 }
 .learnlanguages{
     background-image: url(img/img.3bcg.png);
@@ -209,10 +209,10 @@ height: 40px;
 }
 .phrase4{
     color: #141414;
-text-align: justify;
 font-family: Inter;
 font-size: 36px;
 display: inline-block;
+text-align: center;
 }
 
 .finall2{
