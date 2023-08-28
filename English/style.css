@@ -26,8 +26,6 @@
     border-radius: 35px 0;
     width: 141px;
     height: 41.694px;
-    margin-left: 250px;
-    margin-right: 49px;
 }
 .switcher{
     display: flex;
@@ -101,13 +99,11 @@ img2{
     margin-top: 52px;
 }
 .button1 p{
-    display: flex;
     color: #26C7EA;
-    text-align: center;
     font-family: HeadlandOne;
     font-size: 24px;
     width: 199px;
-    margin: 25px 75px 25px 74px;
+ padding: 10px 30px;
 }
 
 .quote2{
@@ -125,7 +121,7 @@ padding: 76px 0 10px;
     color: black;
     font-family: Inter;
     font-size: 24px;
-    
+    margin: 16px 0 8px;
 }
 .block2{
     background-image: url(img/img.2avatar.png);

@@ -8,13 +8,6 @@
    padding: 39px 0 ;
     justify-content: space-evenly;
 }
-#learnlanguage{
-    color: #141414;
-    text-align: justify;
-    font-family: HeadlandOne;
-    font-size: 32px;
-    text-align: center;
-}
 #color{
     color: #94CFFF;
 }
@@ -35,8 +28,6 @@
     border-radius: 35px 0;
     width: 141px;
     height: 41.694px;
-    margin-left: 250px;
-    margin-right: 49px;
 }
 .switcher{
     display: flex;
@@ -112,11 +103,10 @@ img2{
 }
 .button1 p{
     color: #26C7EA;
-    text-align: center;
     font-family: HeadlandOne;
     font-size: 24px;
     width: 199px;
-    margin: 10px 30px 10px 31px;
+    margin: 10px 30px;
 }
 
 .quote2{
@@ -135,6 +125,7 @@ img2{
     text-align: center;
     font-family: Inter;
     font-size: 24px;
+    margin: 16px 0 8px;
 }
 .block2{
     background-image: url(img/img.2avatar.png);
@@ -171,6 +162,14 @@ img2{
     background-size: cover;
     height: 704px;
     text-align: center;
+}
+#learnlanguage{
+    color: #141414;
+    text-align: justify;
+    font-family: HeadlandOne;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 58px;
 }
 h3{
 color: #141414;
