@@ -184,9 +184,9 @@ margin-top: 58px;
 grid-template-rows: 320px 320px 320px;
     justify-content: center;
     align-items: center;
+    width: 1280px;
 }
 .cardchild{
-    margin: 27px 36px;
    display: inline-grid;
    justify-content: center;
    align-items: center;
@@ -197,6 +197,7 @@ font-family: HeadlandOne;
 font-size: 24px;
 width: 320px;
 height: 240px;
+margin: 0 27px 36px 0;
 }
 .card img{
     width: 152px;
@@ -238,6 +239,10 @@ font-family: Inter;
 font-size: 20px;
 }
 .dottedline1{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.imgdottedline{
     margin-left: 20px;
     margin-right: 20px;
 }
