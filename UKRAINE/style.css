@@ -1,22 +1,14 @@
 @import '/UKRAINE/reset.css';
 @import '/UKRAINE/normalize.css';
 .block1{
+    display: flex;
     background-image: url(img/img.2bcg.png);
     background-size: cover;
-    /* align-items: center; */
+    align-items: center;
    padding: 39px 0 ;
     justify-content: space-evenly;
 }
-.flex{
-    display: flex;
-}
-.align{
-    text-align: center;
 
-}
-.items{
-    align-items: center;
-}
 #color{
     color: #94CFFF;
 }
@@ -25,7 +17,7 @@
     padding-right: 38px;
     text-decoration: none;
     color: #FFF;
-    /* text-align: center; */
+    text-align: center;
     font-family: Inter;
     font-size: 20px;
 }
@@ -37,12 +29,13 @@
     width: 141px;
     height: 41.694px;
 }
-/* .switcher{
+.switcher{
     align-items: center;
-} */
+    display: flex;
+}
 .switcher a{
     color: #FFF;
-/* text-align: center; */
+text-align: center;
 font-family: Hammersmith One;
 font-size: 16px;
 text-decoration: none;
@@ -77,6 +70,8 @@ padding-left: 10px;
  background-size: cover;
  height: 740px;
  justify-content: center;
+ display: flex;
+ align-items: center;
 }
 .midsite p{
     width: 298px;
@@ -91,7 +86,7 @@ padding-left: 10px;
 }
 .midsite{
     justify-content: space-around;
-    /* align-items: center; */
+    align-items: center;
 }
 .img1,
 img2{
@@ -117,7 +112,7 @@ img2{
 }
 
 .quote{
-    /* text-align: center; */
+    text-align: center;
    padding: 75px 0 10px;
 }
 .phrase{
@@ -125,11 +120,11 @@ img2{
     font-family: Inter;
     font-size: 36px;
     display: inline-block;
-    /* text-align: center; */
+    text-align: center;
 }
 .author{
     color: black;
-    /* text-align: center; */
+    text-align: center;
     font-family: Inter;
     font-size: 24px;
     margin: 16px 0 8px;
@@ -154,7 +149,7 @@ img2{
    padding: 25px 19px 25px 20px;
 }
 .quote{
-    /* text-align: center; */
+    text-align: center;
     padding: 75px 0 10px;
 }
 .phrase2{
@@ -162,7 +157,7 @@ img2{
     font-family: Inter;
     font-size: 36px;
     display: inline-block;
-    /* text-align: center; */
+    text-align: center;
 }
 .learnlanguages{
     background-image: url(img/img.3bcg.png);
@@ -174,28 +169,28 @@ img2{
     text-align: justify;
     font-family: HeadlandOne;
     font-size: 32px;
-    /* text-align: center; */
+    text-align: center;
     padding-top: 58px;
 }
 h3{
 color: #141414;
-text-align: justify;
+text-align: center;
 font-family: HeadlandOne;
 font-size: 32px;
-margin-top: 58px;
+padding-top: 58px;
 }
 .cards{
     margin-top: 143px;
     display: inline-grid;
 grid-template-rows: 320px 320px 320px;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
     width: 1280px;
 }
 .cardchild{
    display: inline-grid;
    justify-content: center;
-   /* align-items: center; */
+   align-items: center;
     background-image: url(img/img.4bcg.png);
 color: #141414;
 text-align: justify;
@@ -210,7 +205,7 @@ margin: 0 27px 36px 0;
 height: 40px;
 }
 .quote{
-    /* text-align: center; */
+    text-align: center;
     padding: 75px 0 10px;
 }
 .phrase4{
@@ -218,10 +213,11 @@ height: 40px;
 font-family: Inter;
 font-size: 36px;
 display: inline-block;
-/* text-align: center; */
+text-align: center;
 }
 
 .finall2{
+    display: flex;
    background-image: url(img/img.5bcg.png);
    background-size: cover;
 }
@@ -263,9 +259,11 @@ font-size: 20px;
 }
 .block5-email{
     padding-top: 16px;
+    display: flex;
 }
 .block5-email1{
     padding-top: 80px;
+    display: flex;
 }
 .img2{
     padding-bottom: 27px;
